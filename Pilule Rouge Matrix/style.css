@@ -1,0 +1,135 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .pill4-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .matrix-pill4 {
+            position: relative;
+            width: 150px;
+            height: 70px;
+            background: linear-gradient(145deg, #b30000, #ff0000);
+            border-radius: 35px;
+            box-shadow: 
+                0 0 15px rgba(255, 0, 0, 0.7),
+                0 0 30px rgba(255, 0, 0, 0.5),
+                inset 10px 0 20px rgba(255, 100, 100, 0.8),
+                inset -10px 0 20px rgba(180, 0, 0, 0.8);
+            overflow: hidden;
+            transform: rotate(-10deg);
+            animation: backwards-spin 6s linear infinite, beat-red 2s infinite alternate;
+            
+        }
+        @keyframes backwards-spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+        
+        @keyframes beat-red {
+            0% {
+                box-shadow: 
+                    0 0 15px rgba(255, 0, 0, 0.7),
+                    0 0 30px rgba(255, 0, 0, 0.5),
+                    inset 10px 0 20px rgba(255, 100, 100, 0.8),
+                    inset -10px 0 20px rgba(180, 0, 0, 0.8);
+            }
+            100% {
+                box-shadow: 
+                    0 0 25px rgba(255, 50, 50, 0.9),
+                    0 0 40px rgba(255, 20, 20, 0.7),
+                    inset 15px 0 25px rgba(255, 150, 150, 0.9),
+                    inset -15px 0 25px rgba(200, 50, 50, 0.9);
+            }
+        }
+
+
+        .matrix-pill4::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(90deg, transparent 40%, rgba(255, 255, 255, 0.2) 50%, transparent 60%),
+                repeating-linear-gradient(0deg, 
+                    rgba(14, 14, 14, 0.1) 0px, 
+                    rgba(0, 0, 0, 0.1) 1px, 
+                    transparent 1px, 
+                    transparent 4px);
+            border-radius: 35px;
+        }
+        
+        .pill4-divider {
+            position: absolute;
+            width: 5px;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+        }
+
+
+
+
+.matrix-code4 {
+    position: absolute;
+    bottom: -200px;
+    width: 70%;
+    font-family: monospace;
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+    font-size: 12px;
+    line-height: 20px;
+    /* height: 100px;
+    overflow: hidden; */
+    opacity: 0.9;
+    animation: scroll 20s linear infinite;
+}
+
+
+
+/* En plus test Ss7, laisser 1 seule ligne de SPAN d'origine dans HTML si delete effets*/
+
+.matrix-code4 span {
+    display: block;
+    animation: flicker 1.5s infinite;
+}
+
+@keyframes scroll {
+    0%   { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+}
+
+@keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: 0 0 5px #0f0;
+        opacity: 0.9;
+    }
+    20%, 24%, 55% {
+        text-shadow: none;
+        opacity: 0.4;
+    }
+}
+
+
+
+
