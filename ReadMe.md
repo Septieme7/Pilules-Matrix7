@@ -5,7 +5,7 @@ Ce projet présente différentes pilules numériques inspirées de l'univers **M
 
 ## 💊 Pilules disponibles
 
-- 💊💙  [Pilule Bleue Matrix](https://septieme7.github.io/Pilules-Matrix7/Pilule%20Bleue%20Matrix/index.html) 💙  
+- 💊💙 [Pilule Bleue Matrix](https://septieme7.github.io/Pilules-Matrix7/Pilule%20Bleue%20Matrix/index.html) 💙  
   La pilule bleue, représentant l'ignorance volontaire.
 
 - 💊💛 [Pilule Jaune Matrix](https://septieme7.github.io/Pilules-Matrix7/Pilule%20Jaune%20Matrix/index.html) 💛  
@@ -37,10 +37,16 @@ Clone ce dépôt et ouvre les fichiers HTML dans ton navigateur ou utilise GitHu
 
 ## Liens Directs: 💊 🧡 💙 💛 💚️ ❤️
 
-(https://septieme7.github.io/Pilules-Matrix7/Pilule%20Bleue%20Matrix/index.html) 
+(https://septieme7.github.io/Pilules-Matrix7/Pilule%20Bleue%20Matrix/index.html)
+
 (https://septieme7.github.io/Pilules-Matrix7/Pilule%20Jaune%20Matrix/index.html)
+
 (https://septieme7.github.io/Pilules-Matrix7/Pilule%20Verte%20Matrix/index.html)
+
 (https://septieme7.github.io/Pilules-Matrix7/Pilule%20Rouge%20Matrix/index.html)
+
 (https://septieme7.github.io/Pilules-Matrix7/Pilule%20Orange%20Matrix/index.html)
+
 (https://septieme7.github.io/Pilules-Matrix7/Pilule%20Orange%20Bleu%20Jaune%20Rouge%20Matrix/index.html)
+
 (https://septieme7.github.io/Pilules-Matrix7/Pilule%20verte%20et%20orange%20Matrix/index.html)
